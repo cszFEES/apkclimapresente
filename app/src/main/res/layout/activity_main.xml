@@ -28,8 +28,19 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="175dp"
         android:layout_marginTop="100dp"
+        android:background="#FFFFFF"
         android:text="Temperatura"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="31dp"
+        android:text="Fermín E. Estrada S."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
